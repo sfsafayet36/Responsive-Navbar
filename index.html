@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!-- Navbar container -->
+
+  <nav id="navbar">
+    <!-- Navbar Logo for desktop-->
+    <div class="logo">
+      <i class='bx bx-joystick'></i>
+    </div>
+
+    <!-- Ul list for navigation -->
+    <ul class="ullist ">
+
+      <!-- Second logo for mobile sidebar -->
+      <i id="second-logo" class='bx bx-joystick'></i>
+
+      <!-- Searchbox for mobile sidebar-->
+      <form id="search-form" action="#">
+        <input class="search-box" type="text" placeholder="Search">
+        <button id="search-button">Search</button>
+      </form>
+
+      <!-- Navbar lists-->
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Blog</a></li>
+
+      <!-- Second profile icon for mobile sidebar menu -->
+      <i id="second-profile" class='bx bx-user-circle'></i>
+
+    </ul>
+    <!-- Ul list end here -->
+
+    <!-- Search container for searchbox for desktop view -->
+    <div class="search-container">
+      <form action="#">
+        <input class="search-box" type="text" placeholder="Search">
+        <button id="search-button">Search</button>
+      </form>
+    </div>
+
+    <!-- Profile icon for desktop view-->
+    <div class="profile-icon">
+      <i class='bx bx-user-circle'></i>
+    </div>
+  </nav>
+  <!-- Navbad end here -->
+
+  <!-- Nav icon for toggle -->
+  <div class="menu-container navtoggle">
+    <i id="nav-menubar" class='bx bx-menu'></i>
+  </div>
+  <!-- Link javascript -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
